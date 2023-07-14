@@ -2,6 +2,7 @@ export const CALENDAR_TYPES = {
   GREGORY: 'gregory',
   HEBREW: 'hebrew',
   ISLAMIC: 'islamic',
+  COPTIC: 'coptic',
   ISO_8601: 'iso8601',
 } as const;
 
@@ -57,6 +58,7 @@ export const CALENDAR_TYPE_LOCALES = {
     'ps',
     'ps-AR',
   ],
+  [CALENDAR_TYPES.COPTIC]: ['en', 'ar-u-nu-arab'],
 };
 
 export const WEEKDAYS = [0, 1, 2, 3, 4, 5, 6] as const;

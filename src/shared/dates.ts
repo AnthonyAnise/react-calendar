@@ -62,6 +62,8 @@ export function getDayOfWeek(
     case CALENDAR_TYPES.HEBREW:
     case CALENDAR_TYPES.GREGORY:
       return weekday;
+    case CALENDAR_TYPES.COPTIC:
+      return weekday;
     default:
       throw new Error('Unsupported calendar type.');
   }
